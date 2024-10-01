@@ -44,11 +44,15 @@
 
 ## FrontEnd UI Frameworks 
 
-- Chakra UI 
-- [Material UI ](google.com)
+- [Chakra UI](https://v2.chakra-ui.com/)
+- [Material UI](https://mui.com/)
 - [UI ShadCN](https://ui.shadcn.com/)
 
 
 ## Deployment & Security
 
 - Netlify env variables: https://docs.netlify.com/environment-variables/overview/ 
+
+## Useful resources 
+
+- [Spotify Developer Docs](https://developer.spotify.com/documentation/web-api)
