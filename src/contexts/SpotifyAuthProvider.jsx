@@ -45,7 +45,7 @@ export function SpotifyAuthProvider({children}){
 			setUserAuthData(authData);
 			// This cleans up the URL in the browser tab 
 			// removing the Spotify auth data so it doesn't impact the pageload useEffect
-			window.history.replace(null, "Spotify Statsboards", "/");
+			window.history.replaceState(null, "Spotify Statsboards", "/");
 		}
 		if (userAuthCode){
 			getAuthData();
