@@ -8,7 +8,8 @@ export function ProfileHeader(){
 	if (profileData.id){
 		return <div id="profileHeader">
 			<h1>Spotify Stats for {profileData.display_name}</h1>
-			<img src={profileData.images[0].url} />
+			{profileData.images.length > 0 && <img src={profileData.images[0].url} />}
+			
 		</div>
 	} else {
 		return <div id="profileHeader">
