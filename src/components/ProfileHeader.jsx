@@ -3,7 +3,7 @@ import { useSpotifyProfileData } from "../contexts/SpotifyProfileProvider"
 
 export function ProfileHeader(){
 
-	let profileData = useSpotifyProfileData();
+	let {profileData} = useSpotifyProfileData();
 
 	if (profileData.id){
 		return <div id="profileHeader">
